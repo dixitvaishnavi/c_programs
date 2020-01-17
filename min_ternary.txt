@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+int a,b,min;
+
+printf("Enter the two numbers");
+scanf("%d%d",&a,&b);
+
+(a<b)?min=a:min=b;
+printf(" minimum of two numbers is:  %d",min);
+
+return 0;
+}
