@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+
+int r,h;
+float area;
+
+printf(" Enter the radius and height of the cylinder");
+scanf("%d%d",&r,&h);
+
+area=2*3.14*r*(r+h);
+printf(" The surface area of the cylinder is :%f", area);
+
+return 0;
+}
