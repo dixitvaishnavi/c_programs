@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+int a,p,r,t,ci;
+float si;
+
+printf(" Enter the principal,amount,rate of interest, time");
+scanf("%d%d%d%d",&p,&a,&r,&t);
+
+si=(p*r*t)/100.0;
+printf(" The simple interest is :%f",si);
+
+ci=a-p;
+printf("The compound interest is :  %d",ci);
+
+return0;
+}
