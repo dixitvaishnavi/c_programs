@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{ int ch,p,h,ba,a,b,c,height ;
+  float s,f,t;
+
+printf("enter the menu \n 1. Calculation of hypotenuse by pythagoras theorem \n 2. Calculation of area of triangle by Heron's formula \n 3. Calculation of area of right angled triangle" );
+scanf("%d",&ch);
+
+switch(ch)
+{
+case1:
+	printf("Enter the perpendicular and base of the triangle ");
+	scanf("%d%d",&p,&ba);
+	h=sqrt((p*p)+(ba*ba));
+	printf("Hypotenuse of the triangle  is : %d",h);
+	break;
+case2:
+	printf("Enter the three sides of the triangle");
+	scanf("%d%d%d",&a,&b,&c);
+	s=(a+b+c)/2;
+	f=sqrt(s*(s-a)*(s-b)*(s-c));
+	printf(" The area of the triangle is: %f",f );
+	break;
+case3:
+	printf("Enter the base and height ");
+	scanf("%d%d",&ba,&height);
+	t=0.5*ba*height;
+	printf("Area of the triangle is: %f",t);
+	break;
+default:
+	printf("No other operation to be performed ");
+}
+}
+	
