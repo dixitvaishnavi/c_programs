@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+
+char g,s;
+int a;
+
+printf("Enter the martial status - m for Married and u for Unmarried");
+scanf("%c",&s);
+printf(" Enter the gender- m for Male and f for Female");
+scanf("\n%c",&g);
+printf("Enter the age ");
+scanf("\n%d",&a);
+if(((s=='m'))||((s=='u')&&(g=='m')&&(a>30))||((s=='u')&&(g=='f')&&(a>25)))
+printf("\n Driver is insured");
+else
+printf("\n Driver is not insured");
+
+return 0;
+}
