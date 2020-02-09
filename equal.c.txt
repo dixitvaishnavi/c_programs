@@ -1,0 +1,11 @@
+#include<stdio.h>
+vooid main()
+{ int m,n;
+
+printf(" enter the values for m and n\n");
+scanf("%d%d",&m,&n);
+if (m==n)
+printf("M and N are equal");
+else 
+printf(" M and N are not equal");
+}
