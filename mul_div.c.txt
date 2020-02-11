@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main()
+{
+int x,y,mul;
+float div;
+
+printf(" Enter the two integers:");
+scanf("%d%d",&x,&y);
+
+mul=x*y;
+div=x/y;
+
+printf(" \n Multiplication =%d \n Division=%f ",mul,div);
+
+return 0;
+}
