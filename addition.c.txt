@@ -1,0 +1,9 @@
+#include<stdio.h>
+void main()
+{ 
+int x,y,sum;
+printf("Enter the two integers");
+scanf("%d%d",&x,&y);
+sum=x+y;
+printf("\n Addition =%d",sum);
+}
