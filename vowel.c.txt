@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main()
+
+{ char c;
+
+printf(" \n Enter the alphabet :");
+scanf("%c",&c);
+
+if(c=='A' || c=='E'|| c=='I'||c=='O' || c=='U')
+  printf(" \n %c is vowel",c);
+else
+  printf("\n %c is not a vowel",c);
+
+return 0;
+
+}
