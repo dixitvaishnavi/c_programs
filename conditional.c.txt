@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main()
+{
+int n,x;
+
+printf("\n Enter 1 or 2");
+scanf("%d",&n);
+
+x=(n==1)?10:20;
+printf(" "\n X=%d ",x);
+
+return 0;
+}
