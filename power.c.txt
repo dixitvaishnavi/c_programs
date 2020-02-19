@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int main()
+{
+int i,base,index,pow=1;
+
+printf("\n Enter the base");
+scanf("%d",&base);
+printf("\n Enter the index");
+scanf("%d',&index);
+
+for(i=1;i<=index;i++)
+  pow=pow*base;
+
+printf("\n %d ^ %d =%d ",base,index,pow);
+
+return 0;
+}
+
+
