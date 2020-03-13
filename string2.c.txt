@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+int main()
+{
+ char str[30];
+ int i=0;
+
+ printf(" \n Enter the string :");
+ gets(str);
+
+ while(str[i]!='\0')
+ {
+  i++;
+ }
+
+ i--;
+
+ printf("\n Reverse string :");
+ while(i>=0)
+ {
+  printf("%c",str[i]);
+  i--;
+ }
+
+ return 0;
+}
