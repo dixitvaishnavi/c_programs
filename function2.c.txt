@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+void main()
+{
+ int a,b;
+ float d;
+ printf("\n Enter the two numbers :");
+ scanf("%d%d",&a,&b);
+ d=div(a,b);
+ printf("\n Division :%f",d);
+}
+
+ float div(int x, int y)
+{
+ float dv;
+ dv=(float)x/y;
+ return(dv);
+}
