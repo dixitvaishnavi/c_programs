@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<math.h>
+
+void main()
+{
+ long int b,i,power;
+ 
+ printf("\n Enter the base :");
+ scanf("%d",&b);
+ printf("\n Enter the index :");
+ scanf("%d",&i);
+ power=pow(b,i);
+ printf("\n Power %d^%d =%d",b,i,power);
+
+}
