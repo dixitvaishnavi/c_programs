@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<string.h>
+
+void main()
+{
+ char s1[30],s2[30],t[30];
+ printf("\n Enter the string(s1) :");
+ gets(s1);
+ printf("\n Enter the string(s2) :");
+ gets(s2);
+ 
+ strcpy(t,s1);
+ strcpy(s1,s2);
+ strcpy(s2,t);
+ printf("\n");
+ printf("\n After swapping :");
+ printf("\n S1 :%s \n S2 :%s",s1,s2);
+ 
+}
