@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<string.h>
+
+void main()
+{
+ char s1[30],s2[30];
+ int x;
+ printf("\n Enter the string(s1) :");
+ gets(s1);
+ strcpy(s2,s1);
+ strrev(s2);
+ x=strcmp(s1,s2);
+ printf("\n Reverse string(s2) : %s",s2);
+ if(x==0)
+   printf("\n Hence %s is palindrome string",s1);
+ else
+   printf("\n Hence %s is not a palindrome string ",s2);
+
+}
