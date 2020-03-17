@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<string.h>
+
+void main()
+{ 
+ char s1[30],s2[30];
+ printf("\n Enter the string 1 (s1) :");
+ gets(s1);
+ printf("\n Enter the string 2 (s2) :");
+ gets(s2);
+ 
+ strcat(s2,s1);
+ printf("\n Concatenated string (s2) :%s",s2);
+}
