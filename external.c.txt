@@ -1,0 +1,18 @@
+#include<stdio.h>
+int x=10;
+void demoglobal();
+void main()
+{
+  demoglobal();
+  x=x+1;
+  printf("\n X=%d",x);
+  demoglobal();
+
+}
+
+void demoglobal()
+{
+  x=x+1;
+  printf("\n X=%d",x);
+
+}
