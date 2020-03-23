@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+ int x;
+ int *p;
+ printf("\n Enter the number :");
+ scanf("%d",&x);
+ p=&x;
+ printf("\n Values :%d",*p);
+ printf("\n Memory address: %u",p);
+
+}
